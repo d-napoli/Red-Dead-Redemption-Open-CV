@@ -20,4 +20,4 @@ For making the cv only see the red path, we use the image manipulation to transf
 ![enter image description here](https://raw.githubusercontent.com/d-napoli/Red-Dead-Redemption-Open-CV/main/Images/minimap_white.png)
 
 ### Centering the mouse and running
-After the code is able to only see the path, I use the mouse to always center the path, so this way we know that the character is walking/running in the **right direction**. Every now and then, the code presses the **left shift** button on the keyboard, so the character can run faster.
+After the code is able to only see the path, I use the mouse to always center it, so this way we know that the character is walking/running in the **right direction**. Every now and then, the code presses the **left shift** button on the keyboard, so the character can run faster.
