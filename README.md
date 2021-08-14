@@ -9,6 +9,12 @@ Red Dead Redemption 2 is a 2018 action-adventure game developed and published by
 
 ## What this code does? 🖥️
 The main goal is make the main character walk by itself on Red Dead.<br>
-When we **set a destination** on the minimap in the game, we get a white stripe with the route.<br>
-This white stripe is the guide for the **open cv** to guide itself.
+When we **set a destination** on the minimap in the game, we get a red stripe with the route.<br>
+This stripe is the compass for the **open cv** to guide itself.
 
+![enter image description here](https://raw.githubusercontent.com/d-napoli/Red-Dead-Redemption-Open-CV/main/Images/minimap_red.png)
+
+### CV must see only the red path
+For making the cv only see the red path, we use the image manipulation to transform the colors and keep only the red
+
+![enter image description here](https://raw.githubusercontent.com/d-napoli/Red-Dead-Redemption-Open-CV/main/Images/minimap_white.png)
